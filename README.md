@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Minha Viagem - Explore o Mundo</title>
     <style>
-        /* RESET BÁSICO */
         * {
             margin: 0;
             padding: 0;
@@ -13,7 +12,7 @@
         }
 
         html {
-            scroll-behavior: smooth; /* Deixa a rolagem interna suave */
+            scroll-behavior: smooth;
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             color: #333;
         }
@@ -21,7 +20,7 @@
         /* HEADER & NAV */
         header {
             background-color: #ffffff;
-            position: fixed; /* Fixa o menu no topo ao rolar a página */
+            position: fixed;
             top: 0;
             width: 100%;
             z-index: 1000;
@@ -67,15 +66,15 @@
 
         /* BANNER PRINCIPAL (Requisito 1.1 e 1.3) */
         .banner {
-            height: 100vh; /* Ocupa a tela inteira inicialmente */
-            background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5ajESGeJVA7mabsAjI5AdMHA-IFdfspOxgW-sX-i-RQ&s=10'); /* Imagem de vilarejo europeu */
+            height: 100vh;
+            background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5ajESGeJVA7mabsAjI5AdMHA-IFdfspOxgW-sX-i-RQ&s=10'); /* Imagem do Cajueiro de Pirangi */
             background-size: cover;
             background-position: center;
-            background-attachment: fixed; /* Efeito Parallax simples */
+            background-attachment: fixed;
             display: flex;
             align-items: center;
             justify-content: center;
-            padding-top: 80px; /* Evita que o header fixo cubra o conteúdo */
+            padding-top: 80px;
         }
 
         /* Overlay escuro para dar leitura ao texto (Requisito 1.2) */
@@ -113,7 +112,7 @@
 
         .btn-banner:hover {
             background-color: #c0392b;
-            transform: translateY(-2px); /* Pequeno efeito visual de elevação */
+            transform: translateY(-2px);
         }
 
         /* SEÇÕES DE CONTEÚDO */
@@ -214,7 +213,7 @@
         
         <section id="trip-me" class="banner">
             <div class="banner-overlay">
-                <h1>Descubra o Charme dos Vilarejos Europeus</h1>
+                <h1>Descubra o charme do maior Cajueiro do Mundo</h1>
                 <p>Encontre o destino perfeito para a sua próxima grande aventura remota.</p>
                 <a href="#advice" class="btn-banner">Ver Dicas de Viagem</a>
             </div>
@@ -226,12 +225,12 @@
                 <div class="grid-layout">
                     <article class="card">
                         <h3>Nossa Sede</h3>
-                        <p>Localizada no coração de uma vila histórica, prontos para planejar seu roteiro personalizado.</p>
+                        <p>Localizada no coração de Pirangi, prontos para planejar seu roteiro personalizado.</p>
                     </article>
                     <aside class="sidebar-info">
                         <h3>Atendimento</h3>
                         <p>Segunda a Sexta: 9h às 18h</p>
-                        <p>Suporte 100% online para viajantes.</p>
+                        <p>Suporte 100% online para visitantes.</p>
                     </aside>
                 </div>
                 <a href="#topo" class="back-to-top" aria-label="Voltar ao topo">Voltar ao topo ↑</a>
@@ -244,7 +243,7 @@
                 <div class="grid-layout">
                     <article class="card">
                         <h3>1. Planeje com Antecedência</h3>
-                        <p>Vilarejos remotos costumam ter transporte limitado. Verifique horários de trens e ônibus locais.</p>
+                        <p>Visite o nossso cajueiro. Verifique horários de ônibus locais.</p>
                     </article>
                     <article class="card">
                         <h3>2. Respeite a Cultura Local</h3>
